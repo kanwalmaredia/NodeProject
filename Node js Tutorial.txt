@@ -1,0 +1,16 @@
+For node to run after installation
+1)create a folder anywhere you want
+2)in vscode open that folder(project) and create another folder(nodejs) in it.
+3)open folder nodejs and press Alt+shift and press right click it will open pop up of mouse n select 
+cmd it will open the cmd of opened folder path
+4) then write npm init, it will initiate nodejs and make a pakage json file.
+5)after making json then write npm i express mongoose body-parser --save,
+ it will install express for server, mongoose for monogodb and body=parser for converting json into nodejs api and
+save will save these in package.json.
+5)after connection run db.js file 
+node db.js
+6) it will connect db but after connection, you won't be able to write anything. so press ctrl+c twice.
+7)nodemon is a server which it will run your file auto you dont need to run it again n again.
+nmp install -g nodemon
+for dependency
+nmp install --save-dev nodemon
